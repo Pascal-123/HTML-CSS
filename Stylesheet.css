@@ -59,9 +59,14 @@ div {
     height: 1080px;
 }
 
-div img {
+div p {
+    width: 35%;
+    color: coral;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 2vw;
+    display: inline-block;
     margin: 0.5vw;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 .SB::-webkit-scrollbar {
