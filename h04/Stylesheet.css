@@ -1,0 +1,30 @@
+.img {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    width: 1485px;
+    height: 20px;
+    padding: 10px;
+}
+
+article {
+    margin-top: 32px;
+    float: left;
+    width: 50%;
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 32px;
+    font-family: sans-serif;
+}
+
+td {
+    padding: 10px;
+}
+

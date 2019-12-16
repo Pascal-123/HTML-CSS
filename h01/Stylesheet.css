@@ -1,0 +1,21 @@
+button {
+    background-color: dimgrey;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 7%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    opacity: 0.85;
+    transition: 0.5s;
+}
+
+button:hover {opacity: 1} {
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
