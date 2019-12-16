@@ -4,7 +4,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 22.5%;
+    margin-top: 20%;
     color: coral;
     font-size: 5vw;
     font-family: 'Courgette', cursive;
@@ -12,7 +12,7 @@ h1 {
 
 hr {
     border: 2px solid coral;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 32vw;
 }
 
@@ -21,6 +21,14 @@ h2 {
     color: coral;
     font-size: 3vw;
     font-family: 'Courgette', cursive;
+}
+
+img {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 2%;
 }
 
 button {
@@ -39,6 +47,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 
 
 
