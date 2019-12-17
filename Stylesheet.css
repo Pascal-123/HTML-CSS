@@ -15,7 +15,7 @@ h1 {
 }
 
 hr {
-    border: 1px solid coral;
+    border: 2px solid coral;
     border-radius: 5px;
     width: 32vw;
 }
@@ -36,23 +36,6 @@ h2 {
     width: 2%;
 }
 
-button {
-    background-color: dimgrey;
-    border: none;
-    padding: 10px 10px;
-    font-size: 1vw;
-    margin: 5px;
-    width: 20%;
-    text-align: left;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-}
-
-a {
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
 div {
     text-align: center;
     margin: -8px;
@@ -62,7 +45,6 @@ div {
 div p {
     width: 35%;
     color: coral;
-    text-align: center;
     font-family: 'Courgette', cursive;
     font-size: 2vw;
     display: inline-block;
@@ -76,6 +58,19 @@ div p {
 .SB1 {
     -ms-overflow-style: none;
 }
+
+button {
+    background-color: dimgrey;
+    border: none;
+    padding: 10px 10px;
+    font-size: 1vw;
+    margin: 5px;
+    width: 20%;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+
 
 
 
