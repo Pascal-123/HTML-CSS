@@ -3,21 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        form ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        form ul li {
-            padding: 10px;
-        }
-
-        form ul li input {
-            position: absolute;
-            left: 150px;
-        }
-    </style>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <form action="https://www.savatarian.com/html5/form.php" method="post">
@@ -27,12 +13,21 @@
             <span class="verplicht">* verplicht veld</span>
         </li>
         <li>
-            <label for="voornaam">Voornaam:</label>
+            <label for="voornaam">Voornaam</label>
             <input type="text" name="voornaam" id="voornaam">
         </li>
         <li>
-            <label>Achternaam:</label>
+            <label>Tussenvoegsel</label>
+            <input type="text" name="tussenvoegsel" id="tussenvoegsel">
+        </li>
+        <li>
+            <label>Achternaam</label>
             <input type="text" name="achternaam" id="achternaam">
+        </li>
+        <li>
+            <label>Geslacht</label>
+            <input type="radio" name="geslacht" value="man">
+            <input style="left: 200px" type="radio" name="geslacht" value="man">
         </li>
         <li>
             <input type="submit" name="knop">
