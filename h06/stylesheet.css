@@ -12,20 +12,22 @@ form ul li input {
     left: 150px;
 }
 
-div {
-    position: absolute;
-    left: 17px;
-}
-
 textarea {
     left: 150px;
     position: absolute;
-    outline: none;
     resize: none;
 }
 
 .ul {
     display: inline-block;
+}
+
+.input {
+    margin-left: 5px;
+}
+
+.input1 {
+    margin-left: 90px;
 }
 
 
