@@ -3,11 +3,6 @@ form ul {
     padding: 0;
 }
 
-.label {
-    position: absolute;
-    left: 150px;
-}
-
 form ul li {
     padding: 10px;
 }
@@ -16,3 +11,21 @@ form ul li input {
     position: absolute;
     left: 150px;
 }
+
+div {
+    position: absolute;
+    left: 17px;
+}
+
+textarea {
+    left: 150px;
+    position: absolute;
+    outline: none;
+    resize: none;
+}
+
+.ul {
+    display: inline-block;
+}
+
+
