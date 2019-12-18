@@ -1,3 +1,7 @@
+form {
+    display: inline-block;
+}
+
 form ul {
     list-style-type: none;
     padding: 0;
@@ -18,10 +22,6 @@ textarea {
     resize: none;
 }
 
-.ul {
-    display: inline-block;
-}
-
 .input {
     margin-left: 5px;
 }
@@ -30,4 +30,42 @@ textarea {
     margin-left: 90px;
 }
 
+div {
+    left: 310px;
+    bottom: 568px;
+    position: absolute;
+    float: left;
+}
 
+.divspan1 {
+    position: absolute;
+    left: 170px;
+    bottom: 83px;
+}
+
+.divspan2 {
+    position: absolute;
+    left: 170px;
+    bottom: 63px;
+}
+
+.divspan3 {
+    position: absolute;
+    left: 170px;
+    bottom: 43px;
+}
+
+.div1 {
+    position: absolute;
+    bottom: 82px;
+}
+
+.div2 {
+    position: absolute;
+    bottom: 62px;
+}
+
+.div3 {
+    position: absolute;
+    bottom: 42px;
+}

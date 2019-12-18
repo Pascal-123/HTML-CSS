@@ -7,7 +7,7 @@
 </head>
 <body>
 <form action="https://www.savatarian.com/html5/form.php" method="post">
-    <ul class="ul">
+    <ul>
         <li>
             <h2>Voorbeeldformulier</h2>
         </li>
@@ -54,7 +54,7 @@
             &nbsp;
             &nbsp;
             &nbsp;
-            <textarea cols="25" rows="8"></textarea>
+            <textarea cols="35" rows="8" name="omschrijving"></textarea>
         </li>
         <br>
         <br>
@@ -63,8 +63,21 @@
         <br>
         <br>
         <li>
-            <input type="submit" name="knop">
+            <input style="position: absolute; left: 455px;" type="reset" name="knop" value="Annuleer">
+            <input style="position: absoulute; left:530px; width: 75px;" type="submit" name="knop" value="OK">
         </li>
+    <div>
+        <li>
+            <label>Lekker eten:</label><br>
+            <br>
+            <input class="div1" type="checkbox" name="lekker-eten" value="patat">
+            <span class="divspan1">Patat</span><br>
+            <input class="div2" type="checkbox" name="lekker-eten" value="Aardappelen">
+            <span class="divspan2">Aardappelen</span><br>
+            <input class="div3" type="checkbox" name="lekker-eten" value="Hamburger">
+            <span class="divspan3">Hamburger</span><br>
+        </li>
+    </div>
     </ul>
 </form>
 </body>
