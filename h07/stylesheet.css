@@ -10,6 +10,7 @@ body {
 
 div#wrapper {
     background-color: rgb(250, 241, 234);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 header {
@@ -19,10 +20,12 @@ header {
 
 img#logo {
     width: 320px;
+    box-shadow: none;
 }
 
 img {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 ul {
@@ -112,4 +115,8 @@ footer h3 {
         width: 1200px;
         margin: auto;
     }
+}
+
+iframe {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
