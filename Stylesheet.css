@@ -2,34 +2,11 @@ body {
     background-image: url("img/spikes.png");
 }
 
-h1 {
-    text-align: center;
-    margin-top: 20%;
-    color: coral;
-    font-size: 5vw;
-    font-family: 'Courgette', cursive;
-}
-
-hr {
-    border: 2px solid coral;
-    border-radius: 5px;
-    width: 32vw;
-}
-
 h2 {
     text-align: center;
     color: coral;
     font-size: 3vw;
     font-family: 'Courgette', cursive;
-}
-
-.img {
-    margin-top: 20%;
-    margin-bottom: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 2%;
 }
 
 div {
@@ -54,18 +31,6 @@ div p {
 .SB1 {
     -ms-overflow-style: none;
 }
-
-button {
-    background-color: dimgrey;
-    border: none;
-    padding: 10px 10px;
-    font-size: 1vw;
-    margin: 5px;
-    width: 20%;
-    text-align: left;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-}
-
 
 
 
